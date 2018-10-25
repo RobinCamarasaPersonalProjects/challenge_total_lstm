@@ -18,7 +18,7 @@ npy_creation_test() {
     python preprocess_test.py $1 $nb_products $lines $2 $3
 }
 
-n=`expr $(ls ../../data | sort | tail -n1) + 1`
+n=`expr $(ls ../../data | sort -n | tail -n1) + 1`
 mkdir ../../data/$n
 npy_creation_train train_station_1.csv $n 1
 echo ""

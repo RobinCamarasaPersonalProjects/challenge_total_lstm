@@ -2,26 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="817ba424-220f-4161-beb8-c4b5d1b83b7e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../config/paths.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config/prediction.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config/preprocess.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config/training.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard/prediction.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard/preprocess.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard/training.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiments/prediction.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiments/preprocess.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiments/training.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keras/callbacks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keras/custom_layers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keras/losses.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keras/metrics.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keras/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/general_tools.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/project_tools.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/prediction_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/preprocess_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/training_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/preprocess.sh" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/preprocess.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/preprocess_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/preprocess_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/preprocess_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/preprocess_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/utils.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,37 +56,40 @@
         <counts>
           <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="py" value="7" />
           <entry key="sh" value="1" />
-          <entry key="txt" value="3" />
+          <entry key="tmp" value="1" />
+          <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="PLAIN_TEXT" value="8" />
           <entry key="Python" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="522" />
+          <entry key="Python Console" value="695" />
           <entry key="dummy" value="10" />
-          <entry key="py" value="1246" />
-          <entry key="sh" value="363" />
-          <entry key="txt" value="3" />
+          <entry key="py" value="1929" />
+          <entry key="sh" value="366" />
+          <entry key="tmp" value="4" />
+          <entry key="txt" value="286" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="376" />
-          <entry key="Python" value="1768" />
+          <entry key="PLAIN_TEXT" value="666" />
+          <entry key="Python" value="2624" />
         </counts>
       </usages-collector>
     </session>
@@ -110,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/preprocess/preprocess.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+            <state relative-caret-position="360">
+              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -119,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/preprocess/preprocess_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            <state relative-caret-position="342">
+              <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="75" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -131,15 +120,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/preprocess/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="594">
+              <caret line="232" column="14" selection-start-line="232" selection-start-column="14" selection-end-line="232" selection-end-column="14" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-                <marker date="1540415818507" expanded="true" signature="112:113" ph="..." />
-                <marker date="1540415818507" expanded="true" signature="112:226" ph="..." />
-                <marker date="1540415818507" expanded="true" signature="275:276" ph="..." />
-                <marker date="1540415818507" expanded="true" signature="275:280" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/preprocess/data.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-897">
+              <caret line="126" column="16" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -147,8 +141,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/preprocess/preprocess_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            <state relative-caret-position="360">
+              <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -174,7 +168,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -186,14 +180,18 @@
         <option value="$PROJECT_DIR$/preprocess/list.txt" />
         <option value="$PROJECT_DIR$/preprocess/normalization.py" />
         <option value="$PROJECT_DIR$/preprocess/list_2.txt" />
-        <option value="$PROJECT_DIR$/preprocess/preprocess.sh" />
-        <option value="$PROJECT_DIR$/preprocess/utils.py" />
-        <option value="$PROJECT_DIR$/preprocess/preprocess_train.py" />
         <option value="$PROJECT_DIR$/preprocess/preprocess_test.py" />
+        <option value="$PROJECT_DIR$/preprocess/tmp.txt" />
+        <option value="$PROJECT_DIR$/preprocess/preprocess_train.py" />
+        <option value="$PROJECT_DIR$/preprocess/preprocess.sh" />
+        <option value="$PROJECT_DIR$/preprocess/data2.txt" />
+        <option value="$PROJECT_DIR$/preprocess/tmp" />
+        <option value="$PROJECT_DIR$/preprocess/data.txt" />
+        <option value="$PROJECT_DIR$/preprocess/utils.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="4">
     <option name="x" value="67" />
     <option name="y" value="24" />
     <option name="width" value="1853" />
@@ -205,6 +203,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,12 +220,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="prep&#9;FILE&#9;file:///home/tuche-kaki/Documents/Projets/Projet_Perso/IA/face_recognition/src/preprocess/preprocess.sh" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/preprocess/preprocess_test.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/preprocess/preprocess_train.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -259,8 +257,8 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preprocess/preprocess_test.py" />
-      <option name="PARAMETERS" value="test_station_2.csv 204 6120 2 2" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preprocess/preprocess_train.py" />
+      <option name="PARAMETERS" value="train_station_2.csv 204 99144 2 2" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -283,20 +281,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="24" width="1853" height="1056" extended-state="0" />
+    <frame x="67" y="24" width="1853" height="1056" extended-state="4" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.329863" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3296582" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32855567" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3296582" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.45975745" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32941177" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.29327452" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.30871004" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32855567" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -311,9 +309,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/preprocess/preprocess_test.py</url>
-          <line>18</line>
-          <option name="timeStamp" value="12" />
+          <url>file://$PROJECT_DIR$/preprocess/utils.py</url>
+          <line>232</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/preprocess/preprocess_train.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -330,13 +333,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/preprocess/list_2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="142" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocess/list_2.txt" />
     <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/numpy/lib/npyio.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1056">
@@ -344,41 +341,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/preprocess/tmp.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="60" lean-forward="true" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/preprocess/preprocess.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+        <state relative-caret-position="360">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/preprocess/preprocess_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state relative-caret-position="342">
+          <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="75" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/preprocess/data2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1553">
+          <caret line="410" column="12" selection-start-line="410" selection-start-column="12" selection-end-line="410" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocess/tmp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="5" selection-start-line="4" selection-end-line="4" selection-end-column="2388" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocess/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-897">
+          <caret line="126" column="16" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/preprocess/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="594">
+          <caret line="232" column="14" selection-start-line="232" selection-start-column="14" selection-end-line="232" selection-end-column="14" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1540415818507" expanded="true" signature="112:113" ph="..." />
-            <marker date="1540415818507" expanded="true" signature="112:226" ph="..." />
-            <marker date="1540415818507" expanded="true" signature="275:276" ph="..." />
-            <marker date="1540415818507" expanded="true" signature="275:280" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/preprocess/preprocess_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state relative-caret-position="360">
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
