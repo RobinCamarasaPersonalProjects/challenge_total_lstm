@@ -230,4 +230,3 @@ def create_Y(nb_exp, type, path, path_csv, nb_days, nb_products):
             nb_line += 1
         normalize_Y(Y, nb_exp)
     np.save(path + 'Y_' + type + '_' + str(nb_exp) + '.npy', Y)
-    print('end')
