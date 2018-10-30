@@ -2,8 +2,7 @@ import numpy as np
 import random
 
 
-def create_set(exp, station, data_version):
-    path = "../../results_" + str(station) + "/" + str(exp) + "/"
+def create_set(path, station, data_version):
     X = np.load("../../data/" + str(data_version) + "/X_train_" + str(station) + ".npy")
     Y = np.load("../../data/" + str(data_version) + "/Y_train_" + str(station) + ".npy")
     l_X = []
